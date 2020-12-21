@@ -1,0 +1,13 @@
+
+
+After creating an environment we have to activate it.
+Required libraries 
+conda install ujson==1.35
+conda install tensorflow
+pip install rasa
+Visual c++ for some dependencies : https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads
+Then we have to install Rasa-X For that  run commands
+pip install rasa-x --extra-index-url https://pypi.rasa.com/simple
+pip install rasa[spacy]
+python -m spacy download en_core_web_md
+python -m spacy link en_core_web_md en
